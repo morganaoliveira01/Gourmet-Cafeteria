@@ -54,3 +54,4 @@ CREATE TABLE Avaliacao (
     FOREIGN KEY (id_cliente) REFERENCES Cliente(id_cliente),
     FOREIGN KEY (id_produto) REFERENCES Produto(id_produto)
 );
+
